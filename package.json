@@ -1,0 +1,18 @@
+{
+  "name": "pinecut",
+  "version": "1.0.0",
+  "description": "cut the pine",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "pinecut"
+  },
+  "keywords": [
+    "pine"
+  ],
+  "author": "mathisbkwk",
+  "license": "ISC"
+}
