@@ -14,5 +14,11 @@
     "pine"
   ],
   "author": "mathisbkwk",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "random": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=16é"
+  }
 }
