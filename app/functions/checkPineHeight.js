@@ -1,11 +1,32 @@
+const { writeFileSync, readFileSync } = require('fs');
+const path = require('path');
 
 
 function checkPineHeight(pineHeight) {
+    let existingData = {};
 
+    try {
+        let rawData = readFileSync(path.join(__dirname, '../database/pine-data.json'), "utf-8")
+        existingData = JSON.parse(rawData);
+    } catch (e) {
+        console.error(e)
+    }
     if (pineHeight > "50") {
-        return console.log("Le sapin est coupé.")
+
+        let pine = {
+            pineHeight: pineHeight,
+            cut: true
+        }
+        let mergedData = {...existingData, pine}
+        return writeFileSync(path.join(__dirname, '../database/pine-data.json'), JSON.stringify(mergedData, null, 2))
     } else {
-        return console.log("Le sapin est trop petit")
+
+        let pine = {
+            pineHeight: pineHeight,
+            cut: false
+        }
+        let mergedData = {...existingData, pine}
+        return writeFileSync(path.join(__dirname, '../database/pine-data.json'), JSON.stringify(mergedData, null, 2))
     }
 }
 module.exports = checkPineHeight;

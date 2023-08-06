@@ -16,7 +16,9 @@
   "author": "mathisbkwk",
   "license": "ISC",
   "dependencies": {
-    "random": "^4.1.0"
+    "fs": "^0.0.1-security",
+    "random": "^4.1.0",
+    "twit": "^2.2.11"
   },
   "engines": {
     "node": ">=16é"

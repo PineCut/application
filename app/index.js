@@ -4,8 +4,3 @@ const checkPineHeight = require('./functions/checkPineHeight')
 let pineHeight = chooseNumber();
 
 checkPineHeight(pineHeight);
-
-
-
-
-console.log(pineHeight);
