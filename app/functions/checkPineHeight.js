@@ -3,11 +3,11 @@ const path = require('path');
 
 
 function checkPineHeight(pineHeight) {
-    let existingData = {};
+    let exploitation = {};
 
     try {
         let rawData = readFileSync(path.join(__dirname, '../database/pine-data.json'), "utf-8")
-        existingData = JSON.parse(rawData);
+        exploitation  = JSON.parse(rawData);
     } catch (e) {
         console.error(e)
     }
@@ -17,7 +17,7 @@ function checkPineHeight(pineHeight) {
             pineHeight: pineHeight,
             cut: true
         }
-        let mergedData = {...existingData, pine}
+        let mergedData = {exploitation, pine}
         return writeFileSync(path.join(__dirname, '../database/pine-data.json'), JSON.stringify(mergedData, null, 2))
     } else {
 
@@ -25,7 +25,7 @@ function checkPineHeight(pineHeight) {
             pineHeight: pineHeight,
             cut: false
         }
-        let mergedData = {...existingData, pine}
+        let mergedData = {exploitation, pine}
         return writeFileSync(path.join(__dirname, '../database/pine-data.json'), JSON.stringify(mergedData, null, 2))
     }
 }
