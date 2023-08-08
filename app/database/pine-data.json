@@ -1,3 +1,28 @@
 {
-
+  "exploitation": {
+    "exploitation": {
+      "exploitation": {
+        "pine": {
+          "pineId": 4210878488,
+          "pineHeight": 126,
+          "cut": true
+        }
+      },
+      "pine": {
+        "pineId": 4721729941,
+        "pineHeight": 191,
+        "cut": true
+      }
+    },
+    "pine": {
+      "pineId": 5819580598,
+      "pineHeight": 136,
+      "cut": true
+    }
+  },
+  "pine": {
+    "pineId": 7122255512,
+    "pineHeight": 185,
+    "cut": true
+  }
 }
