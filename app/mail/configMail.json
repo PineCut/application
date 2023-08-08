@@ -1,10 +1,16 @@
 {
-    "compilerOptions": {
-        "module": "commonjs",
-        "target": "es5",
-        "sourceMap": true
-    },
-    "exclude": [
-        "node_modules"
-    ]
+  "mailServer": {
+    "host": "smtp.gmail.com",
+    "port": "587",
+    "secure": false,
+    "requireTLS": true,
+    "auth": {
+      "user": "thitis.js",
+      "pass": "Tyuiop2!gmail"
+    }
+  },
+  "mailSender": "thitis.js@gmail.com",
+  "mailReceivers": [
+    "bukomat22@gmail.com"
+  ]
 }

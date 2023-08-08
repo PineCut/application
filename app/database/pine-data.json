@@ -2,27 +2,41 @@
   "exploitation": {
     "exploitation": {
       "exploitation": {
+        "exploitation": {
+          "exploitation": {
+            "pine": {
+              "pineId": 4210878488,
+              "pineHeight": 126,
+              "cut": true
+            }
+          },
+          "pine": {
+            "pineId": 4721729941,
+            "pineHeight": 191,
+            "cut": true
+          }
+        },
         "pine": {
-          "pineId": 4210878488,
-          "pineHeight": 126,
+          "pineId": 5819580598,
+          "pineHeight": 136,
           "cut": true
         }
       },
       "pine": {
-        "pineId": 4721729941,
-        "pineHeight": 191,
+        "pineId": 7122255512,
+        "pineHeight": 185,
         "cut": true
       }
     },
     "pine": {
-      "pineId": 5819580598,
-      "pineHeight": 136,
+      "pineId": 4408648643,
+      "pineHeight": 159,
       "cut": true
     }
   },
   "pine": {
-    "pineId": 7122255512,
-    "pineHeight": 185,
-    "cut": true
+    "pineId": 2399410349,
+    "pineHeight": 19,
+    "cut": false
   }
 }
